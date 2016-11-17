@@ -55,6 +55,7 @@ class php::install{
         'perf',
         'cronie-noanacron',
         'npm',
+        'htop',
         'lsof',
         ]:
         provider => 'yum',

@@ -11,4 +11,8 @@ class php::config {
         owner => 'root', group => 'root',
         content => template('php/www.conf'),
     }
+    file { '/etc/sysctl.conf':
+        owner => 'root', group => 'root',
+        content => template('php/sysctl.conf'),
+    }
 }
